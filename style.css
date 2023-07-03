@@ -1,0 +1,152 @@
+/*body{
+	background-color: pink;
+}
+.Mada{
+	width: 300px;
+	height: 300px;
+	position: relative;
+	content: "";
+	justify-content: center;
+	align-items: center;
+	display: flex;
+		top:300px;
+
+
+}
+.div1{
+	background-color: blue;
+	position:relative;
+	width: 300px;
+	height: 300px;
+	bottom:10%;
+	left: 400%;
+
+}
+@keyframes example{
+from{background-color: orange;}
+to{background-color: yellow;}
+}
+.div1:hover{
+	 width: 100px;
+  	height: 100px;
+  	transition: width 1s;
+}
+.div1::before{
+	content: "Avant";
+	position: absolute;
+	animation-duration: 3s;
+	animation-delay: 0s;
+	background-image:url(image1.jpg); 
+	background-size: cover;
+	animation-iteration-count: infinite;
+	animation-direction: linear;
+	background-color: red;
+	width: 300px;
+	height: 300px;
+	right: 140%;
+	transform: rotate(19deg);
+
+
+}
+.div1::after{
+	 content: "Aprés";
+	position: absolute;
+	background-image:url(image1.jpg); 
+	background-size: cover;
+	animation-duration: 3s;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: linear;
+	background-color: orange;
+	width: 300px;
+	height: 300px;
+	left: 140%;
+	transform: rotate(19deg);
+
+}
+.div2{
+	background-color: red;
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	bottom:10%;
+	left: 300%
+}
+*/
+.navbar{  
+	background-color: lime;
+	width: 86%;
+	height: 90px;
+	display: flex;
+	margin-left: 140px;
+
+
+}
+.items1{
+	background-color: lime;
+	width:170px;
+	height:170px;
+		margin-left: 220px;
+	margin-top: 20px;
+}
+.items2{
+	background-color: lime;
+	width:170px;
+	height:170px;
+		margin-left: 220px;
+		margin-top: 20px;
+
+
+}
+.sidebar1{
+
+	background-color: lime;
+	width:40px;
+	height:190px;
+		margin-left: 500px;
+		margin-top: -360px;
+}
+.sidebar2{
+
+	background-color: lime;
+	width:30px;
+	height:190px;
+		margin-left: 600px;
+		margin-top: -190px;
+}
+.sidebar3{
+
+	background-color: lime;
+	width:40px;
+	height:190px;
+	margin-left: 700px;
+	margin-top: -190px;
+}
+
+.footer1{
+	background-color:lime;
+	width:20%;
+	height:40px;
+	margin-left: 500px;
+	margin-top: 50px;
+}
+.sidebar{  
+	background-color: lime;
+	width:130px;
+	height:530px;
+	display: flex;
+	margin-top:-290px;
+
+
+}
+.footer{  
+	background-color:lime;
+	width:60%;
+	height:90px;
+	justify-content: center;
+	margin-left: 200px;
+	margin-top:-130px;
+	display: flex;
+
+	
+}
